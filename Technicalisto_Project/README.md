@@ -3,9 +3,9 @@
 
 ## How to Handle Rate & Share App in Apple store 
 
-![Result](/Screens/readme1.PNG)
+![Result](Screens/readme1.PNG)
 
-####Follow Steps :
+#### Follow Steps :
 
 1. Add your UIViewController With two button and connect for display both function .
 
