@@ -1,14 +1,47 @@
 
 # Technicalisto
 
-## How to create horizontal CollectionView inside TableViewCell
+## How to Handle Rate & Share App in Apple store 
 
-1. Create your custom design as UITableView inside it add UITableViewCell inside it add your horizontal CollectionView.
+1. Add your UIViewController With two button and connect for display both function .
 
-2. Connect your Big tableview delegate to your viewController and send data with custom cell & reload collectionView after connect.
+2. In file of view controller define variables of itunes :
 
-3. in your custom TableViewCell add delegate of collectionView and send data to custom collectionViewCell.
+       var itunesBaseUrl = "itms-apps://itunes.apple.com/app/"
 
+& apple apps url 
+
+       var appsBaseUrl = "https://apps.apple.com/us/app/"
+       
+& your app id want to use .
+       
+       var appId = "app_name/id00000000?"
+
+
+& if you want to define language 
+
+       var appLang = "l=ar"
+
+3. When tap to share use this method : note , Should sender to be button 
+
+       let myurlstring = self.appsBaseUrl + self.appId + self.appLang
+       let objectsToShare = [myurlstring]
+       let activityVC = UIActivityViewController(activityItems: objectsToShare, applicationActivities: nil)
+       activityVC.popoverPresentationController?.sourceView = self.view
+       activityVC.popoverPresentationController?.sourceRect = sender.frame
+       self.present(activityVC, animated: true, completion: nil)
+
+4. When tap to Rate use this method :
+
+       guard let url = URL(string: self.itunesBaseUrl + self.appId + self.appLang ) else {
+       return
+        }
+       if #available(iOS 10, *) {
+          UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        } else {
+          UIApplication.shared.openURL(url)
+        }
+        
+#### For Test result of Rate need Physical device
 
 ### Thanks
-
