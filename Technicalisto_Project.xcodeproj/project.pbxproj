@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		104498FE273ABC1600454B41 /* readme1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 104498FD273ABC1600454B41 /* readme1.PNG */; };
 		105EA15226EB84F500638DE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105EA15126EB84F500638DE4 /* ViewController.swift */; };
 		10C288F126CEEC9E000724E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C288F026CEEC9E000724E6 /* AppDelegate.swift */; };
 		10C288F326CEEC9E000724E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C288F226CEEC9E000724E6 /* SceneDelegate.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		104498FD273ABC1600454B41 /* readme1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = readme1.PNG; sourceTree = "<group>"; };
 		105EA15126EB84F500638DE4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		10C288ED26CEEC9E000724E6 /* Technicalisto_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Technicalisto_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10C288F026CEEC9E000724E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		10C288EF26CEEC9E000724E6 /* Technicalisto_Project */ = {
 			isa = PBXGroup;
 			children = (
+				104498FD273ABC1600454B41 /* readme1.PNG */,
 				10C2890426CEECAB000724E6 /* README.md */,
 				105EA15126EB84F500638DE4 /* ViewController.swift */,
 				10C288F026CEEC9E000724E6 /* AppDelegate.swift */,
@@ -131,6 +134,7 @@
 				10C288FA26CEEC9F000724E6 /* Assets.xcassets in Resources */,
 				10C2890526CEECAB000724E6 /* README.md in Resources */,
 				10C288F826CEEC9E000724E6 /* Main.storyboard in Resources */,
+				104498FE273ABC1600454B41 /* readme1.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
