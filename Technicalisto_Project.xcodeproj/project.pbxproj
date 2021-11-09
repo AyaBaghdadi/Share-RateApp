@@ -41,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		104498FF273ABFA400454B41 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				104498FD273ABC1600454B41 /* readme1.PNG */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
 		10C288E426CEEC9D000724E6 = {
 			isa = PBXGroup;
 			children = (
@@ -60,7 +68,7 @@
 		10C288EF26CEEC9E000724E6 /* Technicalisto_Project */ = {
 			isa = PBXGroup;
 			children = (
-				104498FD273ABC1600454B41 /* readme1.PNG */,
+				104498FF273ABFA400454B41 /* Screens */,
 				10C2890426CEECAB000724E6 /* README.md */,
 				105EA15126EB84F500638DE4 /* ViewController.swift */,
 				10C288F026CEEC9E000724E6 /* AppDelegate.swift */,
