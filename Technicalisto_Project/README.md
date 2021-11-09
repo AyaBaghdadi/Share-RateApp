@@ -3,7 +3,7 @@
 
 ## How to Handle Rate & Share App in Apple store 
 
-![Result](Screens/readme1.png)
+![Result](Screens/readme1.PNG)
 
 ### Follow Steps :
 
