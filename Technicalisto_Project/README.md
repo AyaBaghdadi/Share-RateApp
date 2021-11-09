@@ -3,7 +3,7 @@
 
 ## How to Handle Rate & Share App in Apple store 
 
-![Result](readme1.png)
+![Result](readme1.PNG)
 
 ####Follow Steps :
 
@@ -60,8 +60,7 @@
 ```
 ## For Test result of Rate need Physical device
 
-This app is inspired by Aya Baghdadi”
-and copyright for [@Technicalisto](https://www.youtube.com/channel/UC7554uvArdSxL4tlws7Wf8Q)
-
 ### Thanks
 
+This app is inspired by Aya Baghdadi”
+and copyright for [@Technicalisto](https://www.youtube.com/channel/UC7554uvArdSxL4tlws7Wf8Q)
